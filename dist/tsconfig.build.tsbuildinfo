@@ -1177,7 +1177,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.service.ts": {
-        "version": "eaf8514ce110fa428a93a27408df4d06d133dbd9ed0a775c315ddfdd507853a9",
+        "version": "e0f1a17e817a6f724a9e338ac5611e15c7973e764959cbf202a31756b8d94035",
         "signature": "653711fba8904aa27fd8911b63cf526e7b334e13a292da4cefdbbe179ac3f3f2",
         "affectsGlobalScope": false
       },
@@ -1372,7 +1372,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "4d48a4f59e8aebb70ac041bf2aaab8ed5122a32371bad1927fb4b85fd66bb91d",
+        "version": "0c0610b055c8c738a7325689a07dad324789a04d31a6815357a52c08fca7e226",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -5011,9 +5011,7 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.controller.ts",
-      "../src/app.module.ts",
-      "../src/app.service.ts",
-      "../src/main.ts"
+      "../src/app.module.ts"
     ]
   },
   "version": "4.2.2"

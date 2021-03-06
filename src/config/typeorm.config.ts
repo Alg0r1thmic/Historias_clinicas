@@ -9,7 +9,7 @@ import * as config from 'config';
  */
 export const typeOrmConfig: TypeOrmModuleOptions = {
     type: 'postgres',
-    url: process.env.DATABASE_URI || config.get('db.url'),
+    url: 'postgres://cbhkvdnadfuvtf:0e5167c568068ea26d7ab93711b0cc45d40e61f8bbf9935d52ee02fc047d820a@ec2-50-17-90-177.compute-1.amazonaws.com:5432/de6v24ejjudj38',
     ssl: true,
     extra: {
       ssl: {

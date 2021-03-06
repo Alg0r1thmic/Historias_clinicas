@@ -10,6 +10,16 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
-  }
+    "incremental": true,
+    "resolveJsonModule": true, // here is the important line, this will help VSCode to autocomplete and suggest quick-fixes
+
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tools"
+  ]
 }

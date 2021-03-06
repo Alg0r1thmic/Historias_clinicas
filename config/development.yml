@@ -1,0 +1,11 @@
+db:
+ type: 'postgres'
+ url: 'postgres://cbhkvdnadfuvtf:0e5167c568068ea26d7ab93711b0cc45d40e61f8bbf9935d52ee02fc047d820a@ec2-50-17-90-177.compute-1.amazonaws.com:5432/de6v24ejjudj38'
+ ssl: true
+ synchronize: false
+
+jwt:
+ secret: 'NiIsInR5cCI6IkpXVCJ9.eyJ1c2Vy'
+
+logs:
+ levels: ['error', 'warn', 'log', 'debug', 'verbose']

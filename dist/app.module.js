@@ -8,13 +8,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
+const typeorm_1 = require("@nestjs/typeorm");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
+const preauth_middleware_1 = require("./auth/preauth.middleware");
+const typeorm_config_1 = require("./config/typeorm.config");
+const features_module_1 = require("./features/features.module");
 let AppModule = class AppModule {
+    configure(consumer) {
+        consumer.apply(preauth_middleware_1.PreauthMiddleware).exclude({ path: 'personal', method: common_1.RequestMethod.GET }).forRoutes({
+            path: '*', method: common_1.RequestMethod.ALL
+        });
+    }
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [],
+        imports: [
+            typeorm_1.TypeOrmModule.forRoot(typeorm_config_1.typeOrmConfig),
+            features_module_1.FeaturesModule,
+        ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })

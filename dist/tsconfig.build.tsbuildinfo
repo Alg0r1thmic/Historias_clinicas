@@ -1457,7 +1457,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.controller.ts": {
-        "version": "fe9ed2dd8ff649f77924978c8f6873bf043e884de57661efd061fbed1ee61798",
+        "version": "33915cf5da5db1fbc586f366cdecc9329a29bedef06d654a0d2be0ed31338c1e",
         "signature": "667729879423659172ba6822f9b57a900b66e25bc78d98fd177905c579c6df9f",
         "affectsGlobalScope": false
       },
@@ -3791,8 +3791,558 @@
         "signature": "6020afb586c5c099dc8978a19d43c895dcc5c7d2cc0ad799ca7d7337ee1bd6d1",
         "affectsGlobalScope": false
       },
+      "../src/features/clinic-history/clinic-history.module.ts": {
+        "version": "93448eb3f80859d697f9b207afd12856646589b35b24cee8b152b485f6b1389a",
+        "signature": "49f26bdaf0fdfee0a9fb0b489055f3099d5f6944ff4dea77faae14271335dedd",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts": {
+        "version": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452",
+        "signature": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts": {
+        "version": "772f9bdd2bf50c9c01b0506001545e9b878faa7394ad6e7d90b49b179a024584",
+        "signature": "772f9bdd2bf50c9c01b0506001545e9b878faa7394ad6e7d90b49b179a024584",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts": {
+        "version": "7042fea4affa85bd05c1c7c9a2e42773738e3aced630b1c7e8e6b48e90a48069",
+        "signature": "7042fea4affa85bd05c1c7c9a2e42773738e3aced630b1c7e8e6b48e90a48069",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts": {
+        "version": "02dafa194c95b7c0293059512b8ea3bd95402c6e4bc8331dab7e92e842260c56",
+        "signature": "02dafa194c95b7c0293059512b8ea3bd95402c6e4bc8331dab7e92e842260c56",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": {
+        "version": "10e0bec39a58664907f32d33b825155a4efea3e74e62bd57206bce35486891d6",
+        "signature": "10e0bec39a58664907f32d33b825155a4efea3e74e62bd57206bce35486891d6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts": {
+        "version": "cd1ccdd9fd7980d43dfede5d42ee3d18064baed98b136089cf7c8221d562f058",
+        "signature": "cd1ccdd9fd7980d43dfede5d42ee3d18064baed98b136089cf7c8221d562f058",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-cookie.decorator.d.ts": {
+        "version": "d60f9a4fd1e734e7b79517f02622426ea1000deb7d6549dfdece043353691a4e",
+        "signature": "d60f9a4fd1e734e7b79517f02622426ea1000deb7d6549dfdece043353691a4e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts": {
+        "version": "403d28b5e5f8fcff795ac038902033ec5890143e950af45bd91a3ed231e8b59c",
+        "signature": "403d28b5e5f8fcff795ac038902033ec5890143e950af45bd91a3ed231e8b59c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts": {
+        "version": "999fa84c5df2d19909d68a43ce89a5dddfb30e526f7796ea995809a09f53e393",
+        "signature": "999fa84c5df2d19909d68a43ce89a5dddfb30e526f7796ea995809a09f53e393",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": {
+        "version": "bfeb476eb0049185cb94c2bfcadb3ce1190554bbcf170d2bf7c68ed9bb00458e",
+        "signature": "bfeb476eb0049185cb94c2bfcadb3ce1190554bbcf170d2bf7c68ed9bb00458e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts": {
+        "version": "ae23a65a2b664ffe979b0a2a98842e10bdf3af67a356f14bbc9d77eb3ab13585",
+        "signature": "ae23a65a2b664ffe979b0a2a98842e10bdf3af67a356f14bbc9d77eb3ab13585",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts": {
+        "version": "eccf6ad2a8624329653896e8dbd03f30756cbd902a81b5d3942d6cf0e1a21575",
+        "signature": "eccf6ad2a8624329653896e8dbd03f30756cbd902a81b5d3942d6cf0e1a21575",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
+        "version": "334ed2e25a7ebc8db8aac231bab5a5b57a1b6f8063186a92314f4ddf3d74d4e2",
+        "signature": "334ed2e25a7ebc8db8aac231bab5a5b57a1b6f8063186a92314f4ddf3d74d4e2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": {
+        "version": "5af015a9834e0f5cf56a9089ddf0ca87a56bd3f8ad0eb79c8cc95968aa867923",
+        "signature": "5af015a9834e0f5cf56a9089ddf0ca87a56bd3f8ad0eb79c8cc95968aa867923",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts": {
+        "version": "62463aa3d299ae0cdc5473d2ac32213a05753c3adce87a8801c6d2b114a64116",
+        "signature": "62463aa3d299ae0cdc5473d2ac32213a05753c3adce87a8801c6d2b114a64116",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": {
+        "version": "c9c2eabaad71c534d7de16385977f95184fdf3ddd0339dadbd5d599488d94f90",
+        "signature": "c9c2eabaad71c534d7de16385977f95184fdf3ddd0339dadbd5d599488d94f90",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": {
+        "version": "bdf0a372e233a8f5ab5daba2763ab8897e1044d735c1698a261b8e2ab08d8d13",
+        "signature": "bdf0a372e233a8f5ab5daba2763ab8897e1044d735c1698a261b8e2ab08d8d13",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": {
+        "version": "9cca15b1c8c4fca29fc938964765d521690d320f1cc478ce3d907abef60b7711",
+        "signature": "9cca15b1c8c4fca29fc938964765d521690d320f1cc478ce3d907abef60b7711",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": {
+        "version": "1205f9908206109effcfe3649bdac82907939bae2e3cb132f8f6236b587515ac",
+        "signature": "1205f9908206109effcfe3649bdac82907939bae2e3cb132f8f6236b587515ac",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts": {
+        "version": "f6b244e6e11ff78419f979c56e1c8eecd277c54fa932a1eae39f69530ed6b0ce",
+        "signature": "f6b244e6e11ff78419f979c56e1c8eecd277c54fa932a1eae39f69530ed6b0ce",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts": {
+        "version": "fef736cfb404b4db9aa942f377dbbac6edb76d18aabd3b647713fa75da8939e9",
+        "signature": "fef736cfb404b4db9aa942f377dbbac6edb76d18aabd3b647713fa75da8939e9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts": {
+        "version": "45659c92e49dfca4601acc7e57fbb03a71513c69768984baf86ead8d20387a01",
+        "signature": "45659c92e49dfca4601acc7e57fbb03a71513c69768984baf86ead8d20387a01",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": {
+        "version": "44d8e9e3978043513ea75120312cee0705a65355fd1253dab6de966adc0409bc",
+        "signature": "44d8e9e3978043513ea75120312cee0705a65355fd1253dab6de966adc0409bc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts": {
+        "version": "9a061acaccf9c582366f60dab2e276dbad29c80176d7e454278a96c8f65a0096",
+        "signature": "9a061acaccf9c582366f60dab2e276dbad29c80176d7e454278a96c8f65a0096",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts": {
+        "version": "17b5469df1d2c13496e90752122e1236d9ebd057fe5ff3b37f1e3b4613ea3969",
+        "signature": "17b5469df1d2c13496e90752122e1236d9ebd057fe5ff3b37f1e3b4613ea3969",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": {
+        "version": "8fc97ef271771dc6f81a9c846d007ac4f0cb5779e3f441c1de54dfda5046fe7b",
+        "signature": "8fc97ef271771dc6f81a9c846d007ac4f0cb5779e3f441c1de54dfda5046fe7b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": {
+        "version": "8b764503654cce10e3570288daa5f7c51a33fce4050eb56df8d4fca9662b8bdf",
+        "signature": "8b764503654cce10e3570288daa5f7c51a33fce4050eb56df8d4fca9662b8bdf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": {
+        "version": "b64fec482d5c612291eebd81e32993663ee90a5dc05cfe43464e6ef5ee1cae73",
+        "signature": "b64fec482d5c612291eebd81e32993663ee90a5dc05cfe43464e6ef5ee1cae73",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts": {
+        "version": "2dd9d764938d20a0613b89b14d7da644f7be4a70d22f18c3019254029d7a7a3c",
+        "signature": "2dd9d764938d20a0613b89b14d7da644f7be4a70d22f18c3019254029d7a7a3c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts": {
+        "version": "021034a82ea821144b711eeba792f824f03d30b5cdb3b20a63e9bc5ad0531fdf",
+        "signature": "021034a82ea821144b711eeba792f824f03d30b5cdb3b20a63e9bc5ad0531fdf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts": {
+        "version": "b251114717c08c462c1a8388155ded58cbdfbadc13488b775a4eaaa59863dc46",
+        "signature": "b251114717c08c462c1a8388155ded58cbdfbadc13488b775a4eaaa59863dc46",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts": {
+        "version": "a2e546426763a9d5d4b5b10b928fb312f8b76e581c8a985362cd04a01859e51a",
+        "signature": "a2e546426763a9d5d4b5b10b928fb312f8b76e581c8a985362cd04a01859e51a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts": {
+        "version": "33bb0d96cea9782d701332e6b7390f8efae3af92fd3e2aa2ac45e4a610e705d6",
+        "signature": "33bb0d96cea9782d701332e6b7390f8efae3af92fd3e2aa2ac45e4a610e705d6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts": {
+        "version": "ae3e98448468e46474d817b5ebe74db11ab22c2feb60e292d96ce1a4ee963623",
+        "signature": "ae3e98448468e46474d817b5ebe74db11ab22c2feb60e292d96ce1a4ee963623",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": {
+        "version": "f0a2fdee9e801ac9320a8660dd6b8a930bf8c5b658d390ae0feafdba8b633688",
+        "signature": "f0a2fdee9e801ac9320a8660dd6b8a930bf8c5b658d390ae0feafdba8b633688",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": {
+        "version": "7beb7f04f6186bdac5e622d44e4cac38d9f2b9fcad984b10d3762e369524dd77",
+        "signature": "7beb7f04f6186bdac5e622d44e4cac38d9f2b9fcad984b10d3762e369524dd77",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/index.d.ts": {
+        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/exceptions/request-query.exception.d.ts": {
+        "version": "15064948710d921d7a28bf8c6714f7dc56ebf093ec721a9e4ad9b3aed605cdcc",
+        "signature": "15064948710d921d7a28bf8c6714f7dc56ebf093ec721a9e4ad9b3aed605cdcc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/exceptions/index.d.ts": {
+        "version": "b6fcb27b4793d97d39247173a929e407bc3a3dd0dfa54bb98f2abb9e7fde9974",
+        "signature": "b6fcb27b4793d97d39247173a929e407bc3a3dd0dfa54bb98f2abb9e7fde9974",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/request-query-builder-options.interface.d.ts": {
+        "version": "574beb75f68925bd226ad61f2eead9d8109562288c073db0b09fe3ef20c77260",
+        "signature": "574beb75f68925bd226ad61f2eead9d8109562288c073db0b09fe3ef20c77260",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts": {
+        "version": "50039e31dee11e6b5e0d4e0f5b5ec68ab12e50d7dd5dce59a21260d506a3a82b",
+        "signature": "50039e31dee11e6b5e0d4e0f5b5ec68ab12e50d7dd5dce59a21260d506a3a82b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/types/request-param.types.d.ts": {
+        "version": "4442b5286a834b7d9d24645c193ddc0d9b8f5b4448ec9e7e240716ddb7c24294",
+        "signature": "4442b5286a834b7d9d24645c193ddc0d9b8f5b4448ec9e7e240716ddb7c24294",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts": {
+        "version": "05a3c9f3d7dd762a3bbd97533267e1e8c156262f5e4b3e94b375ed9121962f44",
+        "signature": "05a3c9f3d7dd762a3bbd97533267e1e8c156262f5e4b3e94b375ed9121962f44",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/params-options.interface.d.ts": {
+        "version": "8fa6724156796ae4345b929e219d9d7258ce64167d5b07be3084641f257e3094",
+        "signature": "8fa6724156796ae4345b929e219d9d7258ce64167d5b07be3084641f257e3094",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/util/lib/checks.util.d.ts": {
+        "version": "d53d29f2fde138448b2d14408068e4a3c90c55a47bd1e6d47028aa17cbdb1c0e",
+        "signature": "d53d29f2fde138448b2d14408068e4a3c90c55a47bd1e6d47028aa17cbdb1c0e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/util/lib/obj.util.d.ts": {
+        "version": "0f676ffe100751550f5e7a5e2c489cd800097a7db8dc50a3d0dbe8cedee3f5de",
+        "signature": "0f676ffe100751550f5e7a5e2c489cd800097a7db8dc50a3d0dbe8cedee3f5de",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/util/lib/types/class.type.d.ts": {
+        "version": "4dad98dd91ea1027788e663c7341c585e6c7613122251eb90852d36302afefe0",
+        "signature": "4dad98dd91ea1027788e663c7341c585e6c7613122251eb90852d36302afefe0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/util/lib/types/object-literal.type.d.ts": {
+        "version": "66e7552c41ac95d51c2a74e62353261c17ca7981d516150a53e7e89c60fdeda1",
+        "signature": "66e7552c41ac95d51c2a74e62353261c17ca7981d516150a53e7e89c60fdeda1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/util/lib/types/index.d.ts": {
+        "version": "71e7dcb07efe9038c1790d7deac8372070b3c6d16262cef3e2e1f5ae1b613666",
+        "signature": "71e7dcb07efe9038c1790d7deac8372070b3c6d16262cef3e2e1f5ae1b613666",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/util/lib/index.d.ts": {
+        "version": "8c3925d24aa419257029b7c8f8019a40caaf044c9798ce2941be05c5b5c8c443",
+        "signature": "8c3925d24aa419257029b7c8f8019a40caaf044c9798ce2941be05c5b5c8c443",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/parsed-request.interface.d.ts": {
+        "version": "6dfeec1088bcde651c2985b1d42fa89ee8e9ea85cc141efb6aba91822f7213a1",
+        "signature": "6dfeec1088bcde651c2985b1d42fa89ee8e9ea85cc141efb6aba91822f7213a1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/create-query-params.interface.d.ts": {
+        "version": "4b42092e56f2ced6f41088604e4f530314151a6a5c5c0d61abf89198c76e8983",
+        "signature": "4b42092e56f2ced6f41088604e4f530314151a6a5c5c0d61abf89198c76e8983",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts": {
+        "version": "01b14b7e33171c8e8a3718ff003e831aa5008432b23c943e5e10728d95a99cb2",
+        "signature": "01b14b7e33171c8e8a3718ff003e831aa5008432b23c943e5e10728d95a99cb2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/request-query.builder.d.ts": {
+        "version": "62e2e76f273ef624e89c92ffd097c1aeb70f6f60eb933d3e4232e1313c8d4bc6",
+        "signature": "62e2e76f273ef624e89c92ffd097c1aeb70f6f60eb933d3e4232e1313c8d4bc6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/request-query.parser.d.ts": {
+        "version": "963f04aa61ae76bfba721c51155fd75f199b9231cae6b6d86229f98d7b65e3df",
+        "signature": "963f04aa61ae76bfba721c51155fd75f199b9231cae6b6d86229f98d7b65e3df",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-request/lib/index.d.ts": {
+        "version": "5df4f11ff2f7d27bbe054ae21c08b8ae7c7aee84999b1182cfc18c1bd76e9c43",
+        "signature": "5df4f11ff2f7d27bbe054ae21c08b8ae7c7aee84999b1182cfc18c1bd76e9c43",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/services/crud-service.abstract.d.ts": {
+        "version": "7046c935dd35e11a1182db0a44afca7a1d3723849df187f178569b49c1915514",
+        "signature": "7046c935dd35e11a1182db0a44afca7a1d3723849df187f178569b49c1915514",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/services/index.d.ts": {
+        "version": "a61a21cdc97cfcafbeb7393b1193d9195a85854728a45ac537f6695e69b8af3b",
+        "signature": "a61a21cdc97cfcafbeb7393b1193d9195a85854728a45ac537f6695e69b8af3b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-controller.interface.d.ts": {
+        "version": "4bd17d4c3a5ac899fb8fdadb55936795b80b48b0b59f279d0e2f6b6e09ee26d1",
+        "signature": "4bd17d4c3a5ac899fb8fdadb55936795b80b48b0b59f279d0e2f6b6e09ee26d1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/common/enums/route-paramtypes.enum.d.ts": {
+        "version": "ef1aa3da0d6bc679154169c3830ab65441b615641a6e982410ee3cbdc66fa290",
+        "signature": "ef1aa3da0d6bc679154169c3830ab65441b615641a6e982410ee3cbdc66fa290",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/types/base-route-name.type.d.ts": {
+        "version": "ce315f0949b4063b535f04119abb80240f63b65d01ff180e82cd928c7f9510ff",
+        "signature": "ce315f0949b4063b535f04119abb80240f63b65d01ff180e82cd928c7f9510ff",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/types/query-filter-option.type.d.ts": {
+        "version": "533a68e2c607c667ba808ab3fc13cc4e461e90a56c00515dd07cbe343e1c9e44",
+        "signature": "533a68e2c607c667ba808ab3fc13cc4e461e90a56c00515dd07cbe343e1c9e44",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/types/index.d.ts": {
+        "version": "0d19d3e71a2b68ba7fc539b58f0e14c3448f5576c22924921119f6922c804c78",
+        "signature": "0d19d3e71a2b68ba7fc539b58f0e14c3448f5576c22924921119f6922c804c78",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/enums/crud-actions.enum.d.ts": {
+        "version": "7ecd698f95352cbc95692332a64411c39690238916368300dfe0d8c10b530be7",
+        "signature": "7ecd698f95352cbc95692332a64411c39690238916368300dfe0d8c10b530be7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/enums/crud-validation-groups.enum.d.ts": {
+        "version": "8a2791e9460e40a704bfd2dced0d74ccd0c6a4cfc600be4b05481e9996554564",
+        "signature": "8a2791e9460e40a704bfd2dced0d74ccd0c6a4cfc600be4b05481e9996554564",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/enums/index.d.ts": {
+        "version": "c4f7cee4d1fb5d3614e30cd442624f8f1d67c99c1d7b6d717a86c2921d5b6e2a",
+        "signature": "c4f7cee4d1fb5d3614e30cd442624f8f1d67c99c1d7b6d717a86c2921d5b6e2a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/crud/reflection.helper.d.ts": {
+        "version": "ba72001dfa1912e45c0b9dfafbedcd65d2e4f185533f1fb5535ade70adb390e7",
+        "signature": "ba72001dfa1912e45c0b9dfafbedcd65d2e4f185533f1fb5535ade70adb390e7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/crud/swagger.helper.d.ts": {
+        "version": "0be5d5917b0f5d0b8aae0259f74b77646d5679533fc82f84f7b3d3d95315558f",
+        "signature": "0be5d5917b0f5d0b8aae0259f74b77646d5679533fc82f84f7b3d3d95315558f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/crud/validation.helper.d.ts": {
+        "version": "347ff62d812bf7dfccb762d8c2bffb2506df7954bfc52c410e47c9a6936a5bfa",
+        "signature": "347ff62d812bf7dfccb762d8c2bffb2506df7954bfc52c410e47c9a6936a5bfa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/crud/index.d.ts": {
+        "version": "a261a66a95c75a3cdcc77247cfb6c49a42d9181a9f1eacb7c76eda2d0ce76d35",
+        "signature": "a261a66a95c75a3cdcc77247cfb6c49a42d9181a9f1eacb7c76eda2d0ce76d35",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/model-options.interface.d.ts": {
+        "version": "9fb8b5ecf745a09cb22da49e08ee4f3d0ea8e3707e3be113dc5cb420ed8f8939",
+        "signature": "9fb8b5ecf745a09cb22da49e08ee4f3d0ea8e3707e3be113dc5cb420ed8f8939",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts": {
+        "version": "7d8fe79a40e0c46dfda71a04f029629d7bef718ce8a357328b151b8cbcfae29f",
+        "signature": "7d8fe79a40e0c46dfda71a04f029629d7bef718ce8a357328b151b8cbcfae29f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/query-options.interface.d.ts": {
+        "version": "c93d038f4d9effe5f8dea532482ef00d81143a8c6566a63b317d22178d368b2f",
+        "signature": "c93d038f4d9effe5f8dea532482ef00d81143a8c6566a63b317d22178d368b2f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts": {
+        "version": "d4be6607c820111c918cf19d0521b40bb4d4245b42099312f693a3bd64e70380",
+        "signature": "d4be6607c820111c918cf19d0521b40bb4d4245b42099312f693a3bd64e70380",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts": {
+        "version": "5d3f2f0bcdd6aa498d09aaa34a6c7c2ce9d326b403c81778222c0872bb17c638",
+        "signature": "5d3f2f0bcdd6aa498d09aaa34a6c7c2ce9d326b403c81778222c0872bb17c638",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/dto-options.interface.d.ts": {
+        "version": "7a4a8fff6a11e72e671fd5aeb911786600f5f1aa87015f24926a6a2db611b46c",
+        "signature": "7a4a8fff6a11e72e671fd5aeb911786600f5f1aa87015f24926a6a2db611b46c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/serialize-options.interface.d.ts": {
+        "version": "c3371e935b9f2205a400953af414309e989166dfd323afd4801fc621e26ae6eb",
+        "signature": "c3371e935b9f2205a400953af414309e989166dfd323afd4801fc621e26ae6eb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-options.interface.d.ts": {
+        "version": "0e47d3266a12681131b4f854bd9476155486258234fa881541555d1ff050771e",
+        "signature": "0e47d3266a12681131b4f854bd9476155486258234fa881541555d1ff050771e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/base-route.interface.d.ts": {
+        "version": "06962baf8380d88edd0c8b447c74438a472dae9e4f4a416c1a2daa96eb6affd6",
+        "signature": "06962baf8380d88edd0c8b447c74438a472dae9e4f4a416c1a2daa96eb6affd6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-request.interface.d.ts": {
+        "version": "e73b41ff61439fb6517d30a0242aa9113ae279019e6cc2d08e9738abac99a43f",
+        "signature": "e73b41ff61439fb6517d30a0242aa9113ae279019e6cc2d08e9738abac99a43f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/create-many-dto.interface.d.ts": {
+        "version": "d03f8a8de2d90a6e28400c243ca4ed5029b5fbd39242a5c32fe6480864df48da",
+        "signature": "d03f8a8de2d90a6e28400c243ca4ed5029b5fbd39242a5c32fe6480864df48da",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/get-many-default-response.interface.d.ts": {
+        "version": "57ae1f26e87d644a50dfff6c9fd1fa0049c0ded7e3748ef0e957ca7e272378ba",
+        "signature": "57ae1f26e87d644a50dfff6c9fd1fa0049c0ded7e3748ef0e957ca7e272378ba",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-global-config.interface.d.ts": {
+        "version": "b7d03825cf79366ca4fb5a43f43eab4dbf4e0f8998c06c128203981f0a19bbe4",
+        "signature": "b7d03825cf79366ca4fb5a43f43eab4dbf4e0f8998c06c128203981f0a19bbe4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts": {
+        "version": "a27ff3e5b60612b0070c49f8edea4e199c9c0ef03d96f4bb5521bf311994df85",
+        "signature": "a27ff3e5b60612b0070c49f8edea4e199c9c0ef03d96f4bb5521bf311994df85",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/crud/crud-routes.factory.d.ts": {
+        "version": "9086b7cf69a258cff6cec22e56c493eb37a8995c9270a9e37b9e9a08a5845919",
+        "signature": "9086b7cf69a258cff6cec22e56c493eb37a8995c9270a9e37b9e9a08a5845919",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/decorators/crud.decorator.d.ts": {
+        "version": "e24b4fc660f50c149719ca33066d2b4ef3f6ac0ab9e1a4ec030e3de0a9596040",
+        "signature": "e24b4fc660f50c149719ca33066d2b4ef3f6ac0ab9e1a4ec030e3de0a9596040",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/decorators/crud-auth.decorator.d.ts": {
+        "version": "fcd8f556f3eaf51e68ed851862e92afa442bbf4df7fa494ab38884176c96f298",
+        "signature": "fcd8f556f3eaf51e68ed851862e92afa442bbf4df7fa494ab38884176c96f298",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/decorators/override.decorator.d.ts": {
+        "version": "8d60fae4d1279e8bacffa7e67da83e431aaf4272a2ee936bdc0ebf784a4fb645",
+        "signature": "8d60fae4d1279e8bacffa7e67da83e431aaf4272a2ee936bdc0ebf784a4fb645",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/decorators/parsed-request.decorator.d.ts": {
+        "version": "770cfa3eee365f3382d236749c555f99eb62b4f629e6cbf7342c6681752116a8",
+        "signature": "770cfa3eee365f3382d236749c555f99eb62b4f629e6cbf7342c6681752116a8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/decorators/parsed-body.decorator.d.ts": {
+        "version": "95e1035d4c56c28603e087fe399aabd7b8e752a5d6380735314e62101440b073",
+        "signature": "95e1035d4c56c28603e087fe399aabd7b8e752a5d6380735314e62101440b073",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/decorators/feature-action.decorator.d.ts": {
+        "version": "9c54bcaf07c28e825ae9898f7eb4f4db97cbd9145a68e97fd354020fe6421723",
+        "signature": "9c54bcaf07c28e825ae9898f7eb4f4db97cbd9145a68e97fd354020fe6421723",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/decorators/index.d.ts": {
+        "version": "5f64b8dc97c99a26d98c02143f1f8ac3ba4506f02b81c8bba7736b1a3bf74a69",
+        "signature": "5f64b8dc97c99a26d98c02143f1f8ac3ba4506f02b81c8bba7736b1a3bf74a69",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/module/crud-config.service.d.ts": {
+        "version": "3da8eb2b27e412f769d8f078925698e9a9b9daa62ae7c572bfce6b3ad83aadd3",
+        "signature": "3da8eb2b27e412f769d8f078925698e9a9b9daa62ae7c572bfce6b3ad83aadd3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/module/index.d.ts": {
+        "version": "aa99345e0eae671e1e3b285d50df1c5c4889928d4da49e871e134d7bcc6a38a2",
+        "signature": "aa99345e0eae671e1e3b285d50df1c5c4889928d4da49e871e134d7bcc6a38a2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-base.interceptor.d.ts": {
+        "version": "4c0f467ade8d836aeaf16c9b114dae3fd3943a505128ee93c41bc04b25d1dcb7",
+        "signature": "4c0f467ade8d836aeaf16c9b114dae3fd3943a505128ee93c41bc04b25d1dcb7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-request.interceptor.d.ts": {
+        "version": "ac46b24d4a2a2492f5a41eb398b14fbf68c77f96cb3e476ee72fbfcf9bd3a537",
+        "signature": "ac46b24d4a2a2492f5a41eb398b14fbf68c77f96cb3e476ee72fbfcf9bd3a537",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-response.interceptor.d.ts": {
+        "version": "fafd16378c193d229e63236a8c52d4f0eaa7ff56def103573748f2ad49e57e53",
+        "signature": "fafd16378c193d229e63236a8c52d4f0eaa7ff56def103573748f2ad49e57e53",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/interceptors/index.d.ts": {
+        "version": "4fbae4156cebc96b087209923ef781510c8e7af4b90af061b65e07f03d0ca2aa",
+        "signature": "4fbae4156cebc96b087209923ef781510c8e7af4b90af061b65e07f03d0ca2aa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud/lib/index.d.ts": {
+        "version": "f6bcd77d0066e77e55cabbb530c128fd2f859f119f94b1edbbcb9f9ffc263619",
+        "signature": "f6bcd77d0066e77e55cabbb530c128fd2f859f119f94b1edbbcb9f9ffc263619",
+        "affectsGlobalScope": false
+      },
+      "../src/shared/constants/routes.ts": {
+        "version": "ad357f305528fbd18270e0204d8d585f90a576e903bc83832533c7b28ee00e15",
+        "signature": "af941619290f35afef4b304d3525739316d9aa84df3b1110b4a3ab00d0de8659",
+        "affectsGlobalScope": false
+      },
+      "../src/shared/constants/index.ts": {
+        "version": "e2e4e829ed6bed32a06a27261c95afcb213e06c85591530361351f2562d90b4d",
+        "signature": "e2e4e829ed6bed32a06a27261c95afcb213e06c85591530361351f2562d90b4d",
+        "affectsGlobalScope": false
+      },
+      "../src/features/patients/pacientes/pacientes.entity.ts": {
+        "version": "31020f40514e6c1c5e705c3693ef7a7d2262d7d26c57631bfe6badc567661513",
+        "signature": "909df74ad29ecb77dff58acef3dbf7ecd9956b45866a29fe1a61fa98992d2e2b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-typeorm/lib/typeorm-crud.service.d.ts": {
+        "version": "444e14bea0fb139a0119e22e5fe41b2050c9d9c2107caadeb8ee6ae2f58b8a8f",
+        "signature": "444e14bea0fb139a0119e22e5fe41b2050c9d9c2107caadeb8ee6ae2f58b8a8f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts": {
+        "version": "d7073880324319cfecc7f8139ccb9f947e161e29a7f6ea049d3bfb16a5af698b",
+        "signature": "d7073880324319cfecc7f8139ccb9f947e161e29a7f6ea049d3bfb16a5af698b",
+        "affectsGlobalScope": false
+      },
+      "../src/features/patients/pacientes/pacientes.service.ts": {
+        "version": "e3889f62e5c9d3eb9cd981c44886d11b848dbe6f1e1a820046aa967d225dcc79",
+        "signature": "50ef4c08ef5744ef3e00a5f87211f098fc5035645dcb46db5f3887d17bb0d527",
+        "affectsGlobalScope": false
+      },
+      "../src/features/patients/pacientes/pacientes.controller.ts": {
+        "version": "09fa1e01681dc6a861e3a363b60c5db3d29bd6f087fa14215510ca6e75027c92",
+        "signature": "5b4084acf2f6aeb8e00051e600b274c183280ce888dba9b96a1440819f4130fc",
+        "affectsGlobalScope": false
+      },
+      "../src/features/patients/pacientes/pacientes.module.ts": {
+        "version": "d4cf68fb7be32c354d75ad18d5dc47fb8030797c66ee3c422a451729b25bb276",
+        "signature": "c875d03719a8ec1dc1f2a3c3b72ff91eae2b0ce69111b408e91359427e118cf1",
+        "affectsGlobalScope": false
+      },
+      "../src/features/patients/pacientes/index.ts": {
+        "version": "f4456ad4c90e38685e4f3c0df045d69d1c5b8a8679bf8c979b9a4f2c5a9262d4",
+        "signature": "9c2933e04bd86f9704c9643f95fa449966a6b44ca5c81d998cf5d07689a4469f",
+        "affectsGlobalScope": false
+      },
+      "../src/features/patients/patients.module.ts": {
+        "version": "56c6fc7aea65d13181984d32dddf1d6770bc47850e91bf75f682f0a0bb010875",
+        "signature": "d041aee28c480e2fe23a1d72f2ac1f9fef3d09702e66ce1dcd190ebae2dffa08",
+        "affectsGlobalScope": false
+      },
       "../src/features/features.module.ts": {
-        "version": "f180580ed432a0301071dfb66b61825af4e7edc280896db8a822cdd43ac7369c",
+        "version": "7ce1709cfb8a3ccc468522d6ab514a95af1033f36e2693d65edd125db71824e7",
         "signature": "e071fc1384dd4067564fafb479ce47ee1ee375ee6be9fbc0729b15eba0d4c578",
         "affectsGlobalScope": false
       },
@@ -3982,18 +4532,8 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "519e902f3f957e1b78ccb8a40ffa0a8777c0688e66912626c8e391a8e8cf417a",
+        "version": "d3293ed17919f694dbe29283f51c938acd69b5c3568c6d7c2260a966129be6d7",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "../src/shared/constants/routes.ts": {
-        "version": "1678d35e7c42f067b3fae7fcb1db91a58cbc026bb48d2e0aa1a9efdefdf09b40",
-        "signature": "3440cc45c88dd60ab7547a955cd4596bee8555417d8024f880cd3cf32a112f46",
-        "affectsGlobalScope": false
-      },
-      "../src/shared/constants/index.ts": {
-        "version": "e2e4e829ed6bed32a06a27261c95afcb213e06c85591530361351f2562d90b4d",
-        "signature": "e2e4e829ed6bed32a06a27261c95afcb213e06c85591530361351f2562d90b4d",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -4290,6 +4830,15 @@
       "baseUrl": "..",
       "incremental": true,
       "resolveJsonModule": true,
+      "paths": {
+        "@patients/*": [
+          "./src/features/patients/*"
+        ],
+        "@shared/*": [
+          "./src/shared/*"
+        ]
+      },
+      "pathsBasePath": "/home/serlog/Escritorio/Raúl/historias-clinicas",
       "configFilePath": "../tsconfig.build.json"
     },
     "referencedMap": {
@@ -5246,6 +5795,106 @@
       "../node_modules/@nestjs/core/services/reflector.service.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
       ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-cookie.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/utils/index.d.ts",
+        "../node_modules/reflect-metadata/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/index.d.ts"
+      ],
       "../node_modules/@nestjs/typeorm/dist/common/index.d.ts": [
         "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
         "../node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts"
@@ -5284,6 +5933,230 @@
       ],
       "../node_modules/@nestjs/typeorm/index.d.ts": [
         "../node_modules/@nestjs/typeorm/dist/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/exceptions/index.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/exceptions/request-query.exception.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/index.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/exceptions/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/request-query.builder.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/request-query.parser.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/create-query-params.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/create-query-params.interface.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/params-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/parsed-request.interface.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/request-query-builder-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/params-options.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/parsed-request.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts",
+        "../node_modules/@nestjsx/util/lib/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/request-query.builder.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/request-query.parser.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts",
+        "../node_modules/@nestjsx/util/lib/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/request-param.types.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/typeorm-crud.service.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-typeorm/lib/typeorm-crud.service.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../node_modules/@nestjsx/util/lib/index.d.ts",
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/crud-routes.factory.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/crud/crud-routes.factory.d.ts",
+        "../node_modules/@nestjsx/crud/lib/crud/reflection.helper.d.ts",
+        "../node_modules/@nestjsx/crud/lib/crud/swagger.helper.d.ts",
+        "../node_modules/@nestjsx/crud/lib/crud/validation.helper.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/reflection.helper.d.ts": [
+        "../node_modules/@nestjs/common/enums/route-paramtypes.enum.d.ts",
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/swagger.helper.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/validation.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/crud-auth.decorator.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/crud.decorator.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/feature-action.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/decorators/crud-auth.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/crud.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/feature-action.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/override.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/parsed-body.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/parsed-request.decorator.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/override.decorator.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/types/base-route-name.type.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/enums/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/enums/crud-actions.enum.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/crud-validation-groups.enum.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/crud/crud-routes.factory.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interceptors/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/module/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/services/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-base.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-request.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interceptors/crud-base.interceptor.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/rxjs/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-response.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interceptors/crud-base.interceptor.d.ts",
+        "../node_modules/rxjs/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interceptors/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interceptors/crud-request.interceptor.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interceptors/crud-response.interceptor.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts",
+        "../node_modules/@nestjsx/util/lib/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/base-route.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-controller.interface.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/services/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-global-config.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/crud/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/dto-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/model-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/query-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/serialize-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-request.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/base-route.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/create-many-dto.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/crud-controller.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/crud-global-config.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/crud-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/crud-request.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/dto-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/get-many-default-response.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/model-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/query-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/serialize-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/query-options.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/serialize-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/module/crud-config.service.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/module/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/module/crud-config.service.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/services/crud-service.abstract.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/services/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/services/crud-service.abstract.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/types/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/types/base-route-name.type.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/query-filter-option.type.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/types/query-filter-option.type.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts"
+      ],
+      "../node_modules/@nestjsx/util/lib/index.d.ts": [
+        "../node_modules/@nestjsx/util/lib/checks.util.d.ts",
+        "../node_modules/@nestjsx/util/lib/obj.util.d.ts",
+        "../node_modules/@nestjsx/util/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/util/lib/types/index.d.ts": [
+        "../node_modules/@nestjsx/util/lib/types/class.type.d.ts",
+        "../node_modules/@nestjsx/util/lib/types/object-literal.type.d.ts"
       ],
       "../node_modules/@types/babel__core/index.d.ts": [
         "../node_modules/@babel/parser/typings/babel-parser.d.ts",
@@ -7657,11 +8530,51 @@
       "../src/config/typeorm.config.ts": [
         "../node_modules/@nestjs/typeorm/index.d.ts"
       ],
-      "../src/features/features.module.ts": [
+      "../src/features/clinic-history/clinic-history.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/features/features.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/features/clinic-history/clinic-history.module.ts",
+        "../src/features/patients/patients.module.ts"
+      ],
+      "../src/features/patients/pacientes/index.ts": [
+        "../src/features/patients/pacientes/pacientes.controller.ts",
+        "../src/features/patients/pacientes/pacientes.entity.ts",
+        "../src/features/patients/pacientes/pacientes.module.ts",
+        "../src/features/patients/pacientes/pacientes.service.ts"
+      ],
+      "../src/features/patients/pacientes/pacientes.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/patients/pacientes/pacientes.entity.ts",
+        "../src/features/patients/pacientes/pacientes.service.ts",
+        "../src/shared/constants/index.ts"
+      ],
+      "../src/features/patients/pacientes/pacientes.entity.ts": [
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/features/patients/pacientes/pacientes.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/features/patients/pacientes/pacientes.controller.ts",
+        "../src/features/patients/pacientes/pacientes.entity.ts",
+        "../src/features/patients/pacientes/pacientes.service.ts"
+      ],
+      "../src/features/patients/pacientes/pacientes.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/patients/pacientes/pacientes.entity.ts"
+      ],
+      "../src/features/patients/patients.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/features/patients/pacientes/index.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
         "../src/app.module.ts"
       ],
       "../src/shared/constants/index.ts": [
@@ -8622,6 +9535,106 @@
       "../node_modules/@nestjs/core/services/reflector.service.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
       ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-cookie.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/utils/index.d.ts",
+        "../node_modules/reflect-metadata/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/index.d.ts"
+      ],
       "../node_modules/@nestjs/typeorm/dist/common/index.d.ts": [
         "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
         "../node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts"
@@ -8660,6 +9673,230 @@
       ],
       "../node_modules/@nestjs/typeorm/index.d.ts": [
         "../node_modules/@nestjs/typeorm/dist/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/exceptions/index.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/exceptions/request-query.exception.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/index.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/exceptions/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/request-query.builder.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/request-query.parser.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/create-query-params.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/create-query-params.interface.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/params-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/parsed-request.interface.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/request-query-builder-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/params-options.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/parsed-request.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts",
+        "../node_modules/@nestjsx/util/lib/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/request-query.builder.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/request-query.parser.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts",
+        "../node_modules/@nestjsx/util/lib/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/request-param.types.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/typeorm-crud.service.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud-typeorm/lib/typeorm-crud.service.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../node_modules/@nestjsx/util/lib/index.d.ts",
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/crud-routes.factory.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/crud/crud-routes.factory.d.ts",
+        "../node_modules/@nestjsx/crud/lib/crud/reflection.helper.d.ts",
+        "../node_modules/@nestjsx/crud/lib/crud/swagger.helper.d.ts",
+        "../node_modules/@nestjsx/crud/lib/crud/validation.helper.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/reflection.helper.d.ts": [
+        "../node_modules/@nestjs/common/enums/route-paramtypes.enum.d.ts",
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/swagger.helper.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/crud/validation.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/crud-auth.decorator.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/crud.decorator.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/feature-action.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/decorators/crud-auth.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/crud.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/feature-action.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/override.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/parsed-body.decorator.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/parsed-request.decorator.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/decorators/override.decorator.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/types/base-route-name.type.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/enums/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/enums/crud-actions.enum.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/crud-validation-groups.enum.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/crud/crud-routes.factory.d.ts",
+        "../node_modules/@nestjsx/crud/lib/decorators/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interceptors/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/module/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/services/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-base.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-request.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interceptors/crud-base.interceptor.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/rxjs/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-response.interceptor.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interceptors/crud-base.interceptor.d.ts",
+        "../node_modules/rxjs/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interceptors/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interceptors/crud-request.interceptor.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interceptors/crud-response.interceptor.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts",
+        "../node_modules/@nestjsx/util/lib/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/base-route.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-controller.interface.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/services/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-global-config.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/crud/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/dto-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/model-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/query-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/serialize-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-request.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/base-route.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/create-many-dto.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/crud-controller.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/crud-global-config.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/crud-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/crud-request.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/dto-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/get-many-default-response.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/model-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/query-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/serialize-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/query-options.interface.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/interfaces/serialize-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/module/crud-config.service.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/module/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/module/crud-config.service.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/services/crud-service.abstract.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/services/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/services/crud-service.abstract.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/types/index.d.ts": [
+        "../node_modules/@nestjsx/crud/lib/types/base-route-name.type.d.ts",
+        "../node_modules/@nestjsx/crud/lib/types/query-filter-option.type.d.ts"
+      ],
+      "../node_modules/@nestjsx/crud/lib/types/query-filter-option.type.d.ts": [
+        "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts"
+      ],
+      "../node_modules/@nestjsx/util/lib/index.d.ts": [
+        "../node_modules/@nestjsx/util/lib/checks.util.d.ts",
+        "../node_modules/@nestjsx/util/lib/obj.util.d.ts",
+        "../node_modules/@nestjsx/util/lib/types/index.d.ts"
+      ],
+      "../node_modules/@nestjsx/util/lib/types/index.d.ts": [
+        "../node_modules/@nestjsx/util/lib/types/class.type.d.ts",
+        "../node_modules/@nestjsx/util/lib/types/object-literal.type.d.ts"
       ],
       "../node_modules/@types/babel__core/index.d.ts": [
         "../node_modules/@babel/parser/typings/babel-parser.d.ts",
@@ -11021,6 +12258,21 @@
       "../src/config/typeorm.config.ts": [
         "../node_modules/@nestjs/typeorm/index.d.ts"
       ],
+      "../src/features/patients/pacientes/index.ts": [
+        "../src/features/patients/pacientes/pacientes.controller.ts",
+        "../src/features/patients/pacientes/pacientes.entity.ts",
+        "../src/features/patients/pacientes/pacientes.module.ts",
+        "../src/features/patients/pacientes/pacientes.service.ts"
+      ],
+      "../src/features/patients/pacientes/pacientes.controller.ts": [
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/patients/pacientes/pacientes.entity.ts",
+        "../src/features/patients/pacientes/pacientes.service.ts"
+      ],
+      "../src/features/patients/pacientes/pacientes.service.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/patients/pacientes/pacientes.entity.ts"
+      ],
       "../src/shared/constants/index.ts": [
         "../src/shared/constants/routes.ts"
       ]
@@ -11126,6 +12378,7 @@
       "../node_modules/@nestjs/common/enums/http-status.enum.d.ts",
       "../node_modules/@nestjs/common/enums/index.d.ts",
       "../node_modules/@nestjs/common/enums/request-method.enum.d.ts",
+      "../node_modules/@nestjs/common/enums/route-paramtypes.enum.d.ts",
       "../node_modules/@nestjs/common/enums/shutdown-signal.enum.d.ts",
       "../node_modules/@nestjs/common/exceptions/bad-gateway.exception.d.ts",
       "../node_modules/@nestjs/common/exceptions/bad-request.exception.d.ts",
@@ -11258,6 +12511,43 @@
       "../node_modules/@nestjs/core/router/request/request-constants.d.ts",
       "../node_modules/@nestjs/core/services/index.d.ts",
       "../node_modules/@nestjs/core/services/reflector.service.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-cookie.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts",
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+      "../node_modules/@nestjs/swagger/dist/index.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts",
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+      "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts",
+      "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts",
+      "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts",
+      "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts",
+      "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts",
+      "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts",
+      "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts",
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts",
+      "../node_modules/@nestjs/swagger/index.d.ts",
       "../node_modules/@nestjs/typeorm/dist/common/index.d.ts",
       "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
       "../node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts",
@@ -11267,6 +12557,69 @@
       "../node_modules/@nestjs/typeorm/dist/interfaces/typeorm-options.interface.d.ts",
       "../node_modules/@nestjs/typeorm/dist/typeorm.module.d.ts",
       "../node_modules/@nestjs/typeorm/index.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/exceptions/index.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/exceptions/request-query.exception.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/index.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/create-query-params.interface.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/index.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/params-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/parsed-request.interface.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/interfaces/request-query-builder-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/request-query.builder.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/request-query.parser.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/types/index.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/types/request-param.types.d.ts",
+      "../node_modules/@nestjsx/crud-request/lib/types/request-query.types.d.ts",
+      "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+      "../node_modules/@nestjsx/crud-typeorm/lib/typeorm-crud.service.d.ts",
+      "../node_modules/@nestjsx/crud/lib/crud/crud-routes.factory.d.ts",
+      "../node_modules/@nestjsx/crud/lib/crud/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/crud/reflection.helper.d.ts",
+      "../node_modules/@nestjsx/crud/lib/crud/swagger.helper.d.ts",
+      "../node_modules/@nestjsx/crud/lib/crud/validation.helper.d.ts",
+      "../node_modules/@nestjsx/crud/lib/decorators/crud-auth.decorator.d.ts",
+      "../node_modules/@nestjsx/crud/lib/decorators/crud.decorator.d.ts",
+      "../node_modules/@nestjsx/crud/lib/decorators/feature-action.decorator.d.ts",
+      "../node_modules/@nestjsx/crud/lib/decorators/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/decorators/override.decorator.d.ts",
+      "../node_modules/@nestjsx/crud/lib/decorators/parsed-body.decorator.d.ts",
+      "../node_modules/@nestjsx/crud/lib/decorators/parsed-request.decorator.d.ts",
+      "../node_modules/@nestjsx/crud/lib/enums/crud-actions.enum.d.ts",
+      "../node_modules/@nestjsx/crud/lib/enums/crud-validation-groups.enum.d.ts",
+      "../node_modules/@nestjsx/crud/lib/enums/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-base.interceptor.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-request.interceptor.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interceptors/crud-response.interceptor.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interceptors/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/auth-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/base-route.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/create-many-dto.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-controller.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-global-config.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/crud-request.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/dto-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/get-many-default-response.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/model-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/params-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/query-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/routes-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/interfaces/serialize-options.interface.d.ts",
+      "../node_modules/@nestjsx/crud/lib/module/crud-config.service.d.ts",
+      "../node_modules/@nestjsx/crud/lib/module/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/services/crud-service.abstract.d.ts",
+      "../node_modules/@nestjsx/crud/lib/services/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/types/base-route-name.type.d.ts",
+      "../node_modules/@nestjsx/crud/lib/types/index.d.ts",
+      "../node_modules/@nestjsx/crud/lib/types/query-filter-option.type.d.ts",
+      "../node_modules/@nestjsx/util/lib/checks.util.d.ts",
+      "../node_modules/@nestjsx/util/lib/index.d.ts",
+      "../node_modules/@nestjsx/util/lib/obj.util.d.ts",
+      "../node_modules/@nestjsx/util/lib/types/class.type.d.ts",
+      "../node_modules/@nestjsx/util/lib/types/index.d.ts",
+      "../node_modules/@nestjsx/util/lib/types/object-literal.type.d.ts",
       "../node_modules/@types/anymatch/index.d.ts",
       "../node_modules/@types/babel__core/index.d.ts",
       "../node_modules/@types/babel__generator/index.d.ts",
@@ -11877,7 +13230,14 @@
       "../src/auth/firebaseServiceAccount.json",
       "../src/auth/preauth.middleware.ts",
       "../src/config/typeorm.config.ts",
+      "../src/features/clinic-history/clinic-history.module.ts",
       "../src/features/features.module.ts",
+      "../src/features/patients/pacientes/index.ts",
+      "../src/features/patients/pacientes/pacientes.controller.ts",
+      "../src/features/patients/pacientes/pacientes.entity.ts",
+      "../src/features/patients/pacientes/pacientes.module.ts",
+      "../src/features/patients/pacientes/pacientes.service.ts",
+      "../src/features/patients/patients.module.ts",
       "../src/main.ts",
       "../src/shared/constants/index.ts",
       "../src/shared/constants/routes.ts"

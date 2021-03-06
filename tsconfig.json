@@ -12,7 +12,11 @@
     "baseUrl": "./",
     "incremental": true,
     "resolveJsonModule": true, // here is the important line, this will help VSCode to autocomplete and suggest quick-fixes
+    "paths": {
+      "@patients/*": ["./src/features/patients/*"], 
+      "@shared/*": ["./src/shared/*"],
 
+    }
   },
   "include": [
     "src/**/*"

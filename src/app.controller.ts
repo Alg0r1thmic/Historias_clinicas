@@ -15,7 +15,7 @@ export class AppController {
     || req.socket?.remoteAddress
     || req.connection?.socket?.remoteAddress
     console.log(request);
-    console.log(parseIp);
+    console.log(parseIp(request));
     return this.appService.getHello();
   }
 }

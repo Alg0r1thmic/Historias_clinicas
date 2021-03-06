@@ -29,7 +29,7 @@ let AppController = class AppController {
                 || ((_d = (_c = req.connection) === null || _c === void 0 ? void 0 : _c.socket) === null || _d === void 0 ? void 0 : _d.remoteAddress);
         };
         console.log(request);
-        console.log(parseIp);
+        console.log(parseIp(request));
         return this.appService.getHello();
     }
 };

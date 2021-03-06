@@ -20,7 +20,16 @@ let AppController = class AppController {
         this.appService = appService;
     }
     getHello(request) {
+        const parseIp = (req) => {
+            var _a, _b, _c, _d;
+            return (typeof req.headers['x-forwarded-for'] === 'string'
+                && req.headers['x-forwarded-for'].split(',').shift())
+                || ((_a = req.connection) === null || _a === void 0 ? void 0 : _a.remoteAddress)
+                || ((_b = req.socket) === null || _b === void 0 ? void 0 : _b.remoteAddress)
+                || ((_d = (_c = req.connection) === null || _c === void 0 ? void 0 : _c.socket) === null || _d === void 0 ? void 0 : _d.remoteAddress);
+        };
         console.log(request);
+        console.log(parseIp);
         return this.appService.getHello();
     }
 };

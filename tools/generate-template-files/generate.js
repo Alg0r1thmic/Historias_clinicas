@@ -14,7 +14,7 @@ generateTemplateFiles([
             {question: 'Ingrese el nombre del módulo', slot: '__modulo__'}
         ],
         output: {
-            path: './src/features/__modulo__(lowerCase)/__entity__(kebabCase)',
+            path: './src/features/__modulo__(kebabCase)/__entity__(kebabCase)',
             pathAndFileNameDefaultCase: '(kebabCase)',
         },
         onComplete: () => {

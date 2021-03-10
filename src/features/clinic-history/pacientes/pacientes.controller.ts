@@ -6,7 +6,7 @@ import {
   CrudController
 } from '@nestjsx/crud';
 
-import { PATIENTS_PREFIX } from '@shared/constants';
+import { CLINIC_HISTORY_PREFIX } from '@shared/constants';
 import { Pacientes } from './pacientes.entity';
 import { PacientesService } from './pacientes.service';
 
@@ -27,7 +27,7 @@ import { PacientesService } from './pacientes.service';
   }
 })
 @ApiTags('pacientes')
-@Controller(`${PATIENTS_PREFIX}pacientes`)
+@Controller(`${CLINIC_HISTORY_PREFIX}pacientes`)
 export class PacientesController implements CrudController<Pacientes> {
   
   /**

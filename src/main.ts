@@ -3,6 +3,10 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
+  
+  
+
+
   const options = new DocumentBuilder()
   .setTitle('Historias Clinicas')
   .setDescription('API Rest para historias clinicas')

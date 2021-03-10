@@ -3791,11 +3791,6 @@
         "signature": "6020afb586c5c099dc8978a19d43c895dcc5c7d2cc0ad799ca7d7337ee1bd6d1",
         "affectsGlobalScope": false
       },
-      "../src/features/clinic-history/clinic-history.module.ts": {
-        "version": "93448eb3f80859d697f9b207afd12856646589b35b24cee8b152b485f6b1389a",
-        "signature": "49f26bdaf0fdfee0a9fb0b489055f3099d5f6944ff4dea77faae14271335dedd",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts": {
         "version": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452",
         "signature": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452",
@@ -4292,8 +4287,8 @@
         "affectsGlobalScope": false
       },
       "../src/shared/constants/routes.ts": {
-        "version": "ad357f305528fbd18270e0204d8d585f90a576e903bc83832533c7b28ee00e15",
-        "signature": "af941619290f35afef4b304d3525739316d9aa84df3b1110b4a3ab00d0de8659",
+        "version": "6a5fe48fd7e3592d9c4577566dd9c641995640edb392a65db5ddbd80261661de",
+        "signature": "74339391bd887d718af91d3cbe8e97d808a4061d8e9d7937c448f0269216f229",
         "affectsGlobalScope": false
       },
       "../src/shared/constants/index.ts": {
@@ -4301,9 +4296,9 @@
         "signature": "e2e4e829ed6bed32a06a27261c95afcb213e06c85591530361351f2562d90b4d",
         "affectsGlobalScope": false
       },
-      "../src/features/patients/pacientes/pacientes.entity.ts": {
-        "version": "31020f40514e6c1c5e705c3693ef7a7d2262d7d26c57631bfe6badc567661513",
-        "signature": "909df74ad29ecb77dff58acef3dbf7ecd9956b45866a29fe1a61fa98992d2e2b",
+      "../src/features/clinic-history/pacientes/pacientes.entity.ts": {
+        "version": "331baf082d7d541b916ab23d85390ec8bb5caf8d38a8671ec5416e6576338a15",
+        "signature": "019a07e93f66fb703f351330da71d2373791da29f84d928134c3c93ce44b5749",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjsx/crud-typeorm/lib/typeorm-crud.service.d.ts": {
@@ -4316,33 +4311,183 @@
         "signature": "d7073880324319cfecc7f8139ccb9f947e161e29a7f6ea049d3bfb16a5af698b",
         "affectsGlobalScope": false
       },
-      "../src/features/patients/pacientes/pacientes.service.ts": {
+      "../src/features/clinic-history/pacientes/pacientes.service.ts": {
         "version": "e3889f62e5c9d3eb9cd981c44886d11b848dbe6f1e1a820046aa967d225dcc79",
         "signature": "50ef4c08ef5744ef3e00a5f87211f098fc5035645dcb46db5f3887d17bb0d527",
         "affectsGlobalScope": false
       },
-      "../src/features/patients/pacientes/pacientes.controller.ts": {
-        "version": "09fa1e01681dc6a861e3a363b60c5db3d29bd6f087fa14215510ca6e75027c92",
+      "../src/features/clinic-history/pacientes/pacientes.controller.ts": {
+        "version": "cb149e3406f4957f975dac506b42c2ef98698cd5997b7585dace47039b1756d6",
         "signature": "5b4084acf2f6aeb8e00051e600b274c183280ce888dba9b96a1440819f4130fc",
         "affectsGlobalScope": false
       },
-      "../src/features/patients/pacientes/pacientes.module.ts": {
+      "../src/features/clinic-history/pacientes/pacientes.module.ts": {
         "version": "d4cf68fb7be32c354d75ad18d5dc47fb8030797c66ee3c422a451729b25bb276",
         "signature": "c875d03719a8ec1dc1f2a3c3b72ff91eae2b0ce69111b408e91359427e118cf1",
         "affectsGlobalScope": false
       },
-      "../src/features/patients/pacientes/index.ts": {
+      "../src/features/clinic-history/pacientes/index.ts": {
         "version": "f4456ad4c90e38685e4f3c0df045d69d1c5b8a8679bf8c979b9a4f2c5a9262d4",
         "signature": "9c2933e04bd86f9704c9643f95fa449966a6b44ca5c81d998cf5d07689a4469f",
         "affectsGlobalScope": false
       },
-      "../src/features/patients/patients.module.ts": {
-        "version": "56c6fc7aea65d13181984d32dddf1d6770bc47850e91bf75f682f0a0bb010875",
-        "signature": "d041aee28c480e2fe23a1d72f2ac1f9fef3d09702e66ce1dcd190ebae2dffa08",
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts": {
+        "version": "3e698f356cf5110d70ee99307ca3c4f0a10dbf4a5123f0ebe97f06a87a81cdad",
+        "signature": "d5e3824f41343937e7a90ac414394d7bb4723a8dea2b07a695c04d4b8c80f8d3",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts": {
+        "version": "3438b8e4cd4521302d5e9061a1049afc8e5bc1fbc8e5567a572e02ce27dfe2c0",
+        "signature": "894a4e92b7518e2676bff96a930f22a8234ff9c8dcc107fc6ed1dfefaa626dc7",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.controller.ts": {
+        "version": "a045a4f24298327bcb3a6287474c9639d4f4223c2d5452a0b64fa702a8880bbc",
+        "signature": "01af9577fb5980c7551086f45e09b6f86d69f49deff7fc56cb8ac7bbede65112",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.module.ts": {
+        "version": "07f5de512031742149bf0a75cfe5b12c9bdea9f07b4a3b4212458220c4a6d87c",
+        "signature": "45c69301d28fe718bc734f4d8a6a474ac6e38b9e727639d7a1c6ec466782fa38",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historias-clinicas/index.ts": {
+        "version": "6a20c84347f48e96604c303f7ac7f564c1e9ca2db5fa4cbf25b540a233546b14",
+        "signature": "0030f49045aceede2e9b56bfe088be758ec8d6b948bc8e803ef0bda615d597b0",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/files/files.entity.ts": {
+        "version": "dc18cab0434aeefa7feec097c501b2bf542a94f51c3cc1f022fc37ede1a72ad3",
+        "signature": "aa2ccf2a02040b9660e6603a37ea0a3b26c696f09067f76617d4e14d5ca201aa",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/files/files.service.ts": {
+        "version": "3d1b69edcc14ed485d3326148666188e61b3078c4c360e51a0957eb6368f7bc4",
+        "signature": "cbb67eeb5962bc22266c60f01fe692d58980eb641f6bd66554118f9d650d2587",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/files/files.controller.ts": {
+        "version": "8e8ff4771b3b7b9532ee7a20c641ab266b832e20b183a81dc6983e97f476328f",
+        "signature": "f7816517adf7cbf8aa38d3459282177429f8741b95646064e1244182874d2aab",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/files/files.module.ts": {
+        "version": "a3ddf53bb2c85e47ff84a4b80921d55aae141029e292f5cdb944e8ed5e99e4a2",
+        "signature": "7536446e76a5a61c1e395d9de80100924bcdd2c52261982fad783bd73a5790fb",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/files/index.ts": {
+        "version": "4ecdf9f7dc0099d399c08ed87e10edc589b1874692d0a3e9830c1b5d392f744b",
+        "signature": "d31d25c4f23c5dd9ff6965dcdc86d77212e4807d09b9ec91723d895e1d9ff236",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts": {
+        "version": "2b65b9f75669ccdbf10233cedd4d82f6a1cc4219384be1d6587eb97c4b70a8ee",
+        "signature": "a1d9b79d684b12a4b43d64c748a71128d257089270be303062587216705906a3",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts": {
+        "version": "56431f8886415c871f850162aa847a7ec75821718754bed34387292ac17a5a01",
+        "signature": "080662d0ff1a69d995303a8c4c879c20b26e05d198b46375f098b721e8840116",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.controller.ts": {
+        "version": "308158ac23ec9859aefd3dd91c8b0415bc0f76af905cfc4fc7502e29c8b96320",
+        "signature": "e6928f2dd4e29f0aadfc9f414bf153f2188098c58196326814ef40ee09797531",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.module.ts": {
+        "version": "a2aff9163e6c85b821dae8a77253ac92503cf3040e0931d913b0ebc29b9edbd6",
+        "signature": "6aec317d3657ecb539c7022fea811ba3e57d4483e3de36a533c093a31faf3343",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/historicos-historias-clinicas/index.ts": {
+        "version": "de2e6274122b4939fc956207a21224ede1728c0bbfced5e7341557cb8cf8f9a5",
+        "signature": "81db3c84dbfedab0b0bc8dbac97622fdcd90af710225e07ab0a48a60453a9cf8",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts": {
+        "version": "b36d89eb1c165c136a9ae83ff74296714f6196cbec2f4a2813abf1d93d4b0a7b",
+        "signature": "31927638912116cefa8f4749c302677c1df5f5fb4d97f13c864d755607ce6425",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts": {
+        "version": "956875ae01fac2eb0d143e9c1469d69f2b7ab243957f345c7468860973832616",
+        "signature": "e951b19cd965d330b1f662a08efa5ccc426091266e7c7d60506cdb1560147b65",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/ips-publicas/ips-publicas.controller.ts": {
+        "version": "840c14a54a976d8a000bd304af6eb2b275268d809a0196cbaecb7e0c36488d89",
+        "signature": "10f36dd63ede55787d116b2dde1d8e4006de99a7f938d9e46e6a458032d24f65",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/ips-publicas/ips-publicas.module.ts": {
+        "version": "f9d0e5055f8984b56b9056d481a3bce6073d177e89d25815ee48207f8f888f39",
+        "signature": "96d6a55542932f46cebc2acc968882a17eb8a8d1be23366009a968db09b9ddb1",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/ips-publicas/index.ts": {
+        "version": "b8c3d7641bf021be479c2eebaac5daaf3d1d92780380902456c9b5807895ba2c",
+        "signature": "66de17d88f335993c20b28df277571249e530ab86ff1f5a6038925a40da92aeb",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts": {
+        "version": "c592c937eb673eef4937f4b1a0b0ea98a52bfc47a7652b757f575e2de1cc7866",
+        "signature": "dc75cdd24637a11e5a8ef0ab30b6b6783fa0700b2a2bdf8649072c9f301bf055",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts": {
+        "version": "6dcf91cf927a4afbf23f61f61e0110fca0e95ed3b7f4a64602ca1f594fce82ae",
+        "signature": "e070a426d4d1e64705b098a610cdc19f088efe2971a7eebc6338056f6119185a",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.controller.ts": {
+        "version": "f9be71f304e891e9f19841d96b34cc1fe7355c584a11c6f6752b331d3fd49e21",
+        "signature": "576616c25dc2e048e82bdb9680b3140f0bf2d5b606b8071bbf0fd6ac5e9e8a96",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.module.ts": {
+        "version": "d8fcae58dd797536cbb958fefdb3160256d95b0e56023f8b14bdcca19fa88d65",
+        "signature": "86191e594b3fa72fc4a19d81c4d2c5e70195c68050fd18c4ee5efdf32aea14e1",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/tipos-centro-atencion-medica/index.ts": {
+        "version": "fd8df7ec17097e9f99df955617a573e1932ca23b9ec9c0065d280153f4713332",
+        "signature": "aa3cc0cd7f20dd4fa055e25a97baa96e24f1a1374bd36265567a1aa90f2f0ae5",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts": {
+        "version": "511a23178951b25d2e7c22aa8891c9a8f3ff7679c0f1c9c3766d55dee1a5787d",
+        "signature": "508c9e5c3c86c7c92142fbd540af36e386fecbb949ba5f4fc7405da8f13b9066",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts": {
+        "version": "5417c97de45baf7228c3265cf5961a9fd8b0338a74096dd71e9582088e0c21ab",
+        "signature": "1ec9fa4e69e0c455f767aa1e5d60f61d36d269519a5db543b6ba22aa2de903b6",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.controller.ts": {
+        "version": "9241bba02fcc5a51343ef59c2dd52bbe37c32de5321fa0f9afbe6afe4149acaf",
+        "signature": "cb53fb1c79fcc612170cff36b48b338b56d6ffca45280f1dddcc0ce6380b4beb",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.module.ts": {
+        "version": "7d307acfe696d4380ba52d396e12bbe0e0fc3894713b6282804d15a85a77a82f",
+        "signature": "7b8bf091e9368ff573941d918ad95848c9ed7b653ced248a7871653d42f381e9",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/centros-atencion-medica/index.ts": {
+        "version": "4839e3d351c82a05dad3744c712dff76cf097698f3da42c4603ca7cc5f2ce729",
+        "signature": "c132d6b09b11c8091b7711bf8093399ac53ebdb2afb78eded5486774bab3215d",
+        "affectsGlobalScope": false
+      },
+      "../src/features/clinic-history/clinic-history.module.ts": {
+        "version": "40f6025e73270927c080fad37a94fe382fdc71c7dfe80a0450d5375231dd342b",
+        "signature": "49f26bdaf0fdfee0a9fb0b489055f3099d5f6944ff4dea77faae14271335dedd",
         "affectsGlobalScope": false
       },
       "../src/features/features.module.ts": {
-        "version": "7ce1709cfb8a3ccc468522d6ab514a95af1033f36e2693d65edd125db71824e7",
+        "version": "b05a92f867a971f850893c2a28f7ed53d01051060c6c11c0fb363ab92e42e9ed",
         "signature": "e071fc1384dd4067564fafb479ce47ee1ee375ee6be9fbc0729b15eba0d4c578",
         "affectsGlobalScope": false
       },
@@ -4532,7 +4677,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "d3293ed17919f694dbe29283f51c938acd69b5c3568c6d7c2260a966129be6d7",
+        "version": "91f0ebed700781e210fd9e2c9e99006229dd11542996ad21728e4378061d15f8",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -8530,47 +8675,242 @@
       "../src/config/typeorm.config.ts": [
         "../node_modules/@nestjs/typeorm/index.d.ts"
       ],
-      "../src/features/clinic-history/clinic-history.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../src/features/features.module.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/features/clinic-history/clinic-history.module.ts",
-        "../src/features/patients/patients.module.ts"
-      ],
-      "../src/features/patients/pacientes/index.ts": [
-        "../src/features/patients/pacientes/pacientes.controller.ts",
-        "../src/features/patients/pacientes/pacientes.entity.ts",
-        "../src/features/patients/pacientes/pacientes.module.ts",
-        "../src/features/patients/pacientes/pacientes.service.ts"
-      ],
-      "../src/features/patients/pacientes/pacientes.controller.ts": [
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/swagger/index.d.ts",
         "../node_modules/@nestjsx/crud/lib/index.d.ts",
-        "../src/features/patients/pacientes/pacientes.entity.ts",
-        "../src/features/patients/pacientes/pacientes.service.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts",
         "../src/shared/constants/index.ts"
       ],
-      "../src/features/patients/pacientes/pacientes.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/index.ts",
+        "../src/features/clinic-history/ips-publicas/index.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/index.ts"
       ],
-      "../src/features/patients/pacientes/pacientes.module.ts": [
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
-        "../src/features/patients/pacientes/pacientes.controller.ts",
-        "../src/features/patients/pacientes/pacientes.entity.ts",
-        "../src/features/patients/pacientes/pacientes.service.ts"
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.controller.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts"
       ],
-      "../src/features/patients/pacientes/pacientes.service.ts": [
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
-        "../src/features/patients/pacientes/pacientes.entity.ts"
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts"
       ],
-      "../src/features/patients/patients.module.ts": [
+      "../src/features/clinic-history/centros-atencion-medica/index.ts": [
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.controller.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.module.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts"
+      ],
+      "../src/features/clinic-history/clinic-history.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/features/patients/pacientes/index.ts"
+        "../src/features/clinic-history/centros-atencion-medica/index.ts",
+        "../src/features/clinic-history/files/index.ts",
+        "../src/features/clinic-history/historias-clinicas/index.ts",
+        "../src/features/clinic-history/ips-publicas/index.ts",
+        "../src/features/clinic-history/pacientes/index.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/index.ts"
+      ],
+      "../src/features/clinic-history/files/files.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/files/files.entity.ts",
+        "../src/features/clinic-history/files/files.service.ts",
+        "../src/shared/constants/index.ts"
+      ],
+      "../src/features/clinic-history/files/files.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/features/clinic-history/historias-clinicas/index.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/index.ts"
+      ],
+      "../src/features/clinic-history/files/files.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/features/clinic-history/files/files.controller.ts",
+        "../src/features/clinic-history/files/files.entity.ts",
+        "../src/features/clinic-history/files/files.service.ts"
+      ],
+      "../src/features/clinic-history/files/files.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/files/files.entity.ts"
+      ],
+      "../src/features/clinic-history/files/index.ts": [
+        "../src/features/clinic-history/files/files.controller.ts",
+        "../src/features/clinic-history/files/files.entity.ts",
+        "../src/features/clinic-history/files/files.module.ts",
+        "../src/features/clinic-history/files/files.service.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts",
+        "../src/shared/constants/index.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/features/clinic-history/files/index.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/index.ts",
+        "../src/features/clinic-history/pacientes/index.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.controller.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/index.ts": [
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.controller.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.module.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts",
+        "../src/shared/constants/index.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/features/clinic-history/centros-atencion-medica/index.ts",
+        "../src/features/clinic-history/files/index.ts",
+        "../src/features/clinic-history/historias-clinicas/index.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.controller.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/index.ts": [
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.controller.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.module.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/index.ts": [
+        "../src/features/clinic-history/ips-publicas/ips-publicas.controller.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.module.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/ips-publicas.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts",
+        "../src/shared/constants/index.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/features/clinic-history/centros-atencion-medica/index.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/ips-publicas.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.controller.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts"
+      ],
+      "../src/features/clinic-history/pacientes/index.ts": [
+        "../src/features/clinic-history/pacientes/pacientes.controller.ts",
+        "../src/features/clinic-history/pacientes/pacientes.entity.ts",
+        "../src/features/clinic-history/pacientes/pacientes.module.ts",
+        "../src/features/clinic-history/pacientes/pacientes.service.ts"
+      ],
+      "../src/features/clinic-history/pacientes/pacientes.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/pacientes/pacientes.entity.ts",
+        "../src/features/clinic-history/pacientes/pacientes.service.ts",
+        "../src/shared/constants/index.ts"
+      ],
+      "../src/features/clinic-history/pacientes/pacientes.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/features/clinic-history/historias-clinicas/index.ts"
+      ],
+      "../src/features/clinic-history/pacientes/pacientes.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/features/clinic-history/pacientes/pacientes.controller.ts",
+        "../src/features/clinic-history/pacientes/pacientes.entity.ts",
+        "../src/features/clinic-history/pacientes/pacientes.service.ts"
+      ],
+      "../src/features/clinic-history/pacientes/pacientes.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/pacientes/pacientes.entity.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/index.ts": [
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.controller.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.module.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts",
+        "../src/shared/constants/index.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/features/clinic-history/centros-atencion-medica/index.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.controller.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts"
+      ],
+      "../src/features/features.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/features/clinic-history/clinic-history.module.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -12258,20 +12598,138 @@
       "../src/config/typeorm.config.ts": [
         "../node_modules/@nestjs/typeorm/index.d.ts"
       ],
-      "../src/features/patients/pacientes/index.ts": [
-        "../src/features/patients/pacientes/pacientes.controller.ts",
-        "../src/features/patients/pacientes/pacientes.entity.ts",
-        "../src/features/patients/pacientes/pacientes.module.ts",
-        "../src/features/patients/pacientes/pacientes.service.ts"
-      ],
-      "../src/features/patients/pacientes/pacientes.controller.ts": [
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.controller.ts": [
         "../node_modules/@nestjsx/crud/lib/index.d.ts",
-        "../src/features/patients/pacientes/pacientes.entity.ts",
-        "../src/features/patients/pacientes/pacientes.service.ts"
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts"
       ],
-      "../src/features/patients/pacientes/pacientes.service.ts": [
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts": [
+        "../src/features/clinic-history/historicos-historias-clinicas/index.ts",
+        "../src/features/clinic-history/ips-publicas/index.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/index.ts"
+      ],
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts": [
         "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
-        "../src/features/patients/pacientes/pacientes.entity.ts"
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts"
+      ],
+      "../src/features/clinic-history/centros-atencion-medica/index.ts": [
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.controller.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.module.ts",
+        "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts"
+      ],
+      "../src/features/clinic-history/files/files.controller.ts": [
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/files/files.entity.ts",
+        "../src/features/clinic-history/files/files.service.ts"
+      ],
+      "../src/features/clinic-history/files/files.entity.ts": [
+        "../src/features/clinic-history/historias-clinicas/index.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/index.ts"
+      ],
+      "../src/features/clinic-history/files/files.service.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/files/files.entity.ts"
+      ],
+      "../src/features/clinic-history/files/index.ts": [
+        "../src/features/clinic-history/files/files.controller.ts",
+        "../src/features/clinic-history/files/files.entity.ts",
+        "../src/features/clinic-history/files/files.module.ts",
+        "../src/features/clinic-history/files/files.service.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.controller.ts": [
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts": [
+        "../src/features/clinic-history/files/index.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/index.ts",
+        "../src/features/clinic-history/pacientes/index.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts"
+      ],
+      "../src/features/clinic-history/historias-clinicas/index.ts": [
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.controller.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.module.ts",
+        "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.controller.ts": [
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts": [
+        "../src/features/clinic-history/centros-atencion-medica/index.ts",
+        "../src/features/clinic-history/files/index.ts",
+        "../src/features/clinic-history/historias-clinicas/index.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts"
+      ],
+      "../src/features/clinic-history/historicos-historias-clinicas/index.ts": [
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.controller.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.module.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/index.ts": [
+        "../src/features/clinic-history/ips-publicas/ips-publicas.controller.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.module.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/ips-publicas.controller.ts": [
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts": [
+        "../src/features/clinic-history/centros-atencion-medica/index.ts"
+      ],
+      "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts"
+      ],
+      "../src/features/clinic-history/pacientes/index.ts": [
+        "../src/features/clinic-history/pacientes/pacientes.controller.ts",
+        "../src/features/clinic-history/pacientes/pacientes.entity.ts",
+        "../src/features/clinic-history/pacientes/pacientes.module.ts",
+        "../src/features/clinic-history/pacientes/pacientes.service.ts"
+      ],
+      "../src/features/clinic-history/pacientes/pacientes.controller.ts": [
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/pacientes/pacientes.entity.ts",
+        "../src/features/clinic-history/pacientes/pacientes.service.ts"
+      ],
+      "../src/features/clinic-history/pacientes/pacientes.entity.ts": [
+        "../src/features/clinic-history/historias-clinicas/index.ts"
+      ],
+      "../src/features/clinic-history/pacientes/pacientes.service.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/pacientes/pacientes.entity.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/index.ts": [
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.controller.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.module.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.controller.ts": [
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts": [
+        "../src/features/clinic-history/centros-atencion-medica/index.ts"
+      ],
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts"
       ],
       "../src/shared/constants/index.ts": [
         "../src/shared/constants/routes.ts"
@@ -13230,14 +13688,43 @@
       "../src/auth/firebaseServiceAccount.json",
       "../src/auth/preauth.middleware.ts",
       "../src/config/typeorm.config.ts",
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.controller.ts",
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.entity.ts",
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.module.ts",
+      "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.service.ts",
+      "../src/features/clinic-history/centros-atencion-medica/index.ts",
       "../src/features/clinic-history/clinic-history.module.ts",
+      "../src/features/clinic-history/files/files.controller.ts",
+      "../src/features/clinic-history/files/files.entity.ts",
+      "../src/features/clinic-history/files/files.module.ts",
+      "../src/features/clinic-history/files/files.service.ts",
+      "../src/features/clinic-history/files/index.ts",
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.controller.ts",
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.entity.ts",
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.module.ts",
+      "../src/features/clinic-history/historias-clinicas/historias-clinicas.service.ts",
+      "../src/features/clinic-history/historias-clinicas/index.ts",
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.controller.ts",
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.entity.ts",
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.module.ts",
+      "../src/features/clinic-history/historicos-historias-clinicas/historicos-historias-clinicas.service.ts",
+      "../src/features/clinic-history/historicos-historias-clinicas/index.ts",
+      "../src/features/clinic-history/ips-publicas/index.ts",
+      "../src/features/clinic-history/ips-publicas/ips-publicas.controller.ts",
+      "../src/features/clinic-history/ips-publicas/ips-publicas.entity.ts",
+      "../src/features/clinic-history/ips-publicas/ips-publicas.module.ts",
+      "../src/features/clinic-history/ips-publicas/ips-publicas.service.ts",
+      "../src/features/clinic-history/pacientes/index.ts",
+      "../src/features/clinic-history/pacientes/pacientes.controller.ts",
+      "../src/features/clinic-history/pacientes/pacientes.entity.ts",
+      "../src/features/clinic-history/pacientes/pacientes.module.ts",
+      "../src/features/clinic-history/pacientes/pacientes.service.ts",
+      "../src/features/clinic-history/tipos-centro-atencion-medica/index.ts",
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.controller.ts",
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.entity.ts",
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.module.ts",
+      "../src/features/clinic-history/tipos-centro-atencion-medica/tipos-centro-atencion-medica.service.ts",
       "../src/features/features.module.ts",
-      "../src/features/patients/pacientes/index.ts",
-      "../src/features/patients/pacientes/pacientes.controller.ts",
-      "../src/features/patients/pacientes/pacientes.entity.ts",
-      "../src/features/patients/pacientes/pacientes.module.ts",
-      "../src/features/patients/pacientes/pacientes.service.ts",
-      "../src/features/patients/patients.module.ts",
       "../src/main.ts",
       "../src/shared/constants/index.ts",
       "../src/shared/constants/routes.ts"

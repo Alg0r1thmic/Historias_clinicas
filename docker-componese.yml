@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  posgresql:
+    image: 'bitnami/posgresql:10.3'
+    ports:
+      - '3306:3306'
+    volumes:
+      - 'posgresql_data:/bitnami/posgresql'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - posgresql_DATABASE=nestjs
+      - posgresql_USER=nestjs
+      - posgresql_PASSWORD=password
+
+volumes:
+  posgresql_data:
+    driver: local

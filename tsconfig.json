@@ -15,7 +15,6 @@
     "paths": {
       "@patients/*": ["./src/features/patients/*"], 
       "@shared/*": ["./src/shared/*"],
-
     }
   },
   "include": [

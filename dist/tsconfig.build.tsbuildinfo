@@ -3777,7 +3777,7 @@
         "affectsGlobalScope": false
       },
       "../src/auth/firebaseServiceAccount.json": {
-        "version": "f1c42babb317ea3aaed3bfdda275f055f8601e22fe3fc18a18aba1d29d4f40e4",
+        "version": "ef50c65c1f94958758dd35bf594b7f5f71c27acbd3b14eacc4e15d47e1484541",
         "signature": "5c0a111360223d2d551d21420cb62e47677caa84b27d26e65b5590e30f5796d2",
         "affectsGlobalScope": true
       },
@@ -4482,7 +4482,7 @@
         "affectsGlobalScope": false
       },
       "../src/features/clinic-history/clinic-history.module.ts": {
-        "version": "40f6025e73270927c080fad37a94fe382fdc71c7dfe80a0450d5375231dd342b",
+        "version": "3a5ea1fdf9c498fb457f90f82264a4a916c92ccbe6bd8956533d79664ed9b45c",
         "signature": "49f26bdaf0fdfee0a9fb0b489055f3099d5f6944ff4dea77faae14271335dedd",
         "affectsGlobalScope": false
       },
@@ -8975,6 +8975,7 @@
         "../src/features/clinic-history/centros-atencion-medica/index.ts",
         "../src/features/clinic-history/files/index.ts",
         "../src/features/clinic-history/historias-clinicas/index.ts",
+        "../src/features/clinic-history/historicos-historias-clinicas/index.ts",
         "../src/features/clinic-history/ips-publicas/index.ts",
         "../src/features/clinic-history/pacientes/index.ts",
         "../src/features/clinic-history/tipos-centro-atencion-medica/index.ts"

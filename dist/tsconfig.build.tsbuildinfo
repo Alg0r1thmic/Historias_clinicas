@@ -4417,7 +4417,7 @@
         "affectsGlobalScope": false
       },
       "../src/features/clinic-history/ips-publicas/ips-publicas.controller.ts": {
-        "version": "840c14a54a976d8a000bd304af6eb2b275268d809a0196cbaecb7e0c36488d89",
+        "version": "9ee813d2fac44c1393e73f6d584900194e6368c7d334dfae39324b24bba9afe7",
         "signature": "10f36dd63ede55787d116b2dde1d8e4006de99a7f938d9e46e6a458032d24f65",
         "affectsGlobalScope": false
       },
@@ -4467,7 +4467,7 @@
         "affectsGlobalScope": false
       },
       "../src/features/clinic-history/centros-atencion-medica/centros-atencion-medica.controller.ts": {
-        "version": "9241bba02fcc5a51343ef59c2dd52bbe37c32de5321fa0f9afbe6afe4149acaf",
+        "version": "57ebc7c34c053d23a2d1a69b270708ff674bee3f54ec068e2d7d61d40def09a4",
         "signature": "cb53fb1c79fcc612170cff36b48b338b56d6ffca45280f1dddcc0ce6380b4beb",
         "affectsGlobalScope": false
       },

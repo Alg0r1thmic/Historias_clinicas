@@ -24,6 +24,13 @@ import { CentrosAtencionMedicaService } from './centros-atencion-medica.service'
       type: 'number',
       primary: true,
     }
+  },
+  query:{
+    join:{
+      tipoCentroAtencionMedica:{
+        eager:true
+      }
+    }
   }
 })
 @ApiTags('centros-atencion-medica')

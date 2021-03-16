@@ -24,6 +24,13 @@ import { IpsPublicasService } from './ips-publicas.service';
       type: 'number',
       primary: true,
     }
+  },
+  query:{
+    join:{
+      centroAtencionMedica:{
+        eager:true
+      }
+    }
   }
 })
 @ApiTags('ips-publicas')
